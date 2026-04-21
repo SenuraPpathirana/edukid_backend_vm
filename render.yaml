@@ -1,0 +1,10 @@
+# Render Deployment Configuration
+
+# This file tells Render how to build and start your app
+# Render will automatically detect this file
+
+# Build command
+build: npm install
+
+# Start command  
+start: npm start
